@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "node ./server/index.js"
+    "test": "standard index.js",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Fraser Xu",
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.3",
     "newrelic": "^1.24.0",
     "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
   }
 }
